@@ -49,22 +49,30 @@ It aims to digitize and unify all aspects of business operations in the automoti
   * Purchase, sale, and commission sales linked to customers
   * Full payment lifecycle tracking
 
-* ⚖️ **Maintenance Management**
+* ⚖️ **Maintenance & Transformation Management**
 
-  * Service logs, costs, and transformation history
-  * Status updates and scheduling
+  * Log service records and transformation upgrades/modifications
+  * Track history, status, and cost of each operation
 
 * 💼 **Customer Management**
 
-  * Client database with transaction history
+  * Client database with transaction and maintenance history
 
 * 🔢 **Real-Time Analytics**
 
-  * Sales trends, capital, profit margin, fleet performance
+  * Sales trends, capital, profit margin, vehicle performance metrics
 
 * 🔎 **Data Scraping**
 
   * Auto-fill vehicle metadata from online auction listings
+
+* ⚙️ **System Configuration & Localization**
+
+  * Language settings, customizable currency/payment methods, dynamic model lists
+
+* 📂 **Backup & Recovery**
+
+  * Manual and scheduled backup features for local database
 
 * 🔒 **Persistence & Reliability**
 
@@ -80,8 +88,7 @@ It aims to digitize and unify all aspects of business operations in the automoti
 
 ## 📸 Screenshots
 
-![Inventory UI](media/screenshots/inventory.png)
-![Dashboard UI](media/screenshots/dashboard.png)
+![UI Workflow Preview (GIF)](media/screenshots/sayyar-ui-preview.gif)
 
 ---
 
@@ -123,8 +130,6 @@ Each step is fully tracked and tied to the vehicle’s lifecycle.
 * Modular packages:
 
   * `model`, `controller`, `services`, `repository`, `util`, `resources`
-
-![Architecture Diagram](media/sayyar-architecture.png)
 
 ---
 
